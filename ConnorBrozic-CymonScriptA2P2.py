@@ -17,7 +17,7 @@ api = Cymon('xxx')
 #http://stackoverflow.com/questions/6277107/parsing-text-file-in-python
 
 #Open malware domain file.
-f = open('text.txt','r')
+f = open('TestedMalwareDomains.txt','r')
 #Open output file to write to
 cymondata = open('cymondata.txt','w')
 while True:
